@@ -15,6 +15,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".AdvertiserActivity" />
+        <activity android:name=".DiscovererActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.nearby.connection.SERVICE_ID"
+            android:value="@string/service_id"
+            />
     </application>
 
 </manifest>

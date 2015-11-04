@@ -1,1 +1,1 @@
-include ':sample', ':confab'
+include ':sample', ':library'
