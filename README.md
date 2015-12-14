@@ -3,6 +3,22 @@
 A helper library for using the [Nearby Connections API](https://developers.google.com/nearby/connections/overview).
 This library "enables your app to easily discover other devices on a local network, connect, and exchange messages in real-time".
 
+## Download
+
+Via Maven:
+```xml
+<dependency>
+  <groupId>com.asadmshah.confab</groupId>
+  <artifactId>confab</artifactId>
+  <version>0.1.0</version>
+</dependency>
+```
+
+or Gradle:
+```groovy
+compile 'com.asadmshah.confab:confab:0.1.0'
+```
+
 ## Usage
 
 The Nearby Connections API requires a `service_id` value in your manifest:
